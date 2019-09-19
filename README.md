@@ -6,7 +6,7 @@ A layout that makes it easy to manage different status view
 
 In the layout
 
-```
+```xml
 <io.hellobird.statuslayout.StatusLayout
         android:id="@+id/layout_status"
         android:layout_width="match_parent"
@@ -92,7 +92,7 @@ In the layout
 
 In java code
 
-```
+```java
 mStatusLayout.setStatus(status);
 ```
 
