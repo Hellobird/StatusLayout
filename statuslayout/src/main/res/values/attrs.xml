@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StatusLayout">
+        <!--init status-->
+        <attr name="init">
+            <flag name="success" value="1" />
+            <flag name="loading" value="2" />
+            <flag name="error" value="3" />
+            <flag name="empty" value="4" />
+            <flag name="other" value="5" />
+        </attr>
+        <!--success layout resource id-->
+        <attr name="success" format="reference" />
+        <!--loading layout resource id-->
+        <attr name="loading" format="reference" />
+        <!--error layout resource id-->
+        <attr name="error" format="reference" />
+        <!--empty layout resource id-->
+        <attr name="empty" format="reference" />
+        <!--other layout resource id-->
+        <attr name="other" format="reference" />
+        <!--Enable animation-->
+        <attr name="anim_enable" format="boolean" />
+        <!--The animation of status in-->
+        <attr name="anim_in" format="reference" />
+        <!--The animation of status out-->
+        <attr name="anim_out" format="reference" />
+    </declare-styleable>
+</resources>
