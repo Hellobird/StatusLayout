@@ -1,8 +1,8 @@
 # StatusView
 
-A layout that makes it easy to manage different status view
+A layout that makes it easy to manage different status view for Android
 
-# How to use
+# How to us
 
 In the layout
 
